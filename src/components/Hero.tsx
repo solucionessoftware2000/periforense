@@ -14,7 +14,7 @@ export default function Hero() {
     <section
       id="inicio"
       className="relative flex flex-col justify-center overflow-hidden"
-      style={{ background: "linear-gradient(to bottom, oklch(0.97 0.01 254), oklch(1 0 0))" }}
+      style={{ background: "linear-gradient(to bottom, #eff6ff, #ffffff)" }}
     >
       {/* Geometric background pattern */}
       <div className="absolute inset-0 pointer-events-none">
