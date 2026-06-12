@@ -1,4 +1,4 @@
-import { Scale, ExternalLink, BookOpen, Globe } from "lucide-react"
+import { ExternalLink, BookOpen, Globe } from "lucide-react"
 import { Separator } from "@/components/ui/separator"
 
 const footerLinks = {
@@ -35,9 +35,7 @@ export default function Footer() {
           {/* Brand column */}
           <div className="lg:col-span-2 flex flex-col gap-5">
             <a href="#inicio" className="flex items-center gap-3 group w-fit">
-              <div className="flex size-10 items-center justify-center rounded-xl bg-white/15 ring-1 ring-white/20">
-                <Scale className="size-5 text-white" />
-              </div>
+              <img src="/logo.png" alt="PeriForense logo" className="size-10 object-contain" />
               <div className="flex flex-col leading-none">
                 <span className="text-base font-bold tracking-widest text-white uppercase">
                   PeriForense

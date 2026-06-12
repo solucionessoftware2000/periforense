@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react"
-import { Menu, Scale, X } from "lucide-react"
+import { Menu, X } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet"
 
@@ -32,9 +32,7 @@ export default function Navbar() {
         <div className="flex h-16 items-center justify-between">
           {/* Logo */}
           <a href="#inicio" className="flex items-center gap-3 group">
-            <div className="flex size-9 shrink-0 items-center justify-center rounded-lg bg-primary/10 ring-1 ring-primary/20 transition-all group-hover:bg-primary/15">
-              <Scale className="size-5 text-primary" />
-            </div>
+            <img src="/logo.png" alt="PeriForense logo" className="size-9 shrink-0 object-contain" />
             <div className="flex flex-col leading-none">
               <span className="text-sm font-bold tracking-widest text-primary uppercase">
                 PeriForense
@@ -92,9 +90,7 @@ export default function Navbar() {
             >
               <div className="flex flex-col h-full">
                 <div className="flex items-center gap-3 p-6 border-b border-border">
-                  <div className="flex size-9 items-center justify-center rounded-lg bg-primary/10 ring-1 ring-primary/20">
-                    <Scale className="size-5 text-primary" />
-                  </div>
+                  <img src="/logo.png" alt="PeriForense logo" className="size-9 object-contain" />
                   <div className="flex flex-col leading-none">
                     <span className="text-sm font-bold tracking-widest text-primary uppercase">
                       PeriForense

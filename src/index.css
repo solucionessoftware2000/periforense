@@ -128,4 +128,8 @@
   html {
     scroll-behavior: smooth;
   }
+  option {
+    background-color: var(--card);
+    color: var(--foreground);
+  }
 }
