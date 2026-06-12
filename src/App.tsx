@@ -5,6 +5,7 @@ import Specialties from "@/components/Specialties"
 import Pricing from "@/components/Pricing"
 import ContactFAQ from "@/components/ContactFAQ"
 import Footer from "@/components/Footer"
+import WhatsAppButton from "@/components/WhatsAppButton"
 
 export function App() {
   return (
@@ -18,6 +19,7 @@ export function App() {
         <ContactFAQ />
       </main>
       <Footer />
+      <WhatsAppButton />
     </div>
   )
 }

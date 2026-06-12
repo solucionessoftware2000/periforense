@@ -29,7 +29,7 @@ export default function Hero() {
       </div>
 
       {/* Content */}
-      <div className="relative mx-auto max-w-7xl w-full px-4 sm:px-6 lg:px-8 pb-16 pt-36">
+      <div className="relative mx-auto max-w-7xl w-full px-4 sm:px-6 lg:px-8 pb-16 pt-40">
         <div className="max-w-2xl">
           <div className="mb-6">
             <Badge
