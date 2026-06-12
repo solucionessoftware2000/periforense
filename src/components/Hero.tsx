@@ -20,7 +20,7 @@ export default function Hero() {
         <img
           src="/image1.png"
           alt="Perito Psicológico Forense"
-          className="w-full h-full object-cover object-center"
+          className="w-full h-full object-cover object-[70%_center] sm:object-center"
         />
         {/* Gradient overlay: heavy on left for text, lighter on right to show person */}
         <div className="absolute inset-0 bg-gradient-to-r from-[#070f1e]/95 via-[#070f1e]/70 to-[#070f1e]/20" />
