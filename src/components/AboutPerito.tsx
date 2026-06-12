@@ -35,24 +35,32 @@ export default function AboutPerito() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
 
           {/* Photo gallery */}
-          <div className="grid grid-cols-2 gap-4">
-            <div className="col-span-2">
+          <div className="flex gap-4 h-[580px]">
+            {/* Main portrait — left */}
+            <div className="flex-[2] overflow-hidden rounded-2xl shadow-2xl shadow-black/50">
               <img
-                src="/iimage1.jpeg"
-                alt="Perito en oficina"
-                className="w-full rounded-2xl object-cover aspect-[16/9] shadow-2xl shadow-black/40"
+                src="/image4.jpeg"
+                alt="Perito forense"
+                className="w-full h-full object-cover object-top"
               />
             </div>
-            <img
-              src="/image3.jpeg"
-              alt="Perito forense"
-              className="w-full rounded-xl object-cover aspect-[3/4] shadow-xl shadow-black/40"
-            />
-            <img
-              src="/image2.jpeg"
-              alt="Perito forense"
-              className="w-full rounded-xl object-cover aspect-[3/4] shadow-xl shadow-black/40"
-            />
+            {/* Two stacked — right */}
+            <div className="flex-1 flex flex-col gap-4">
+              <div className="flex-1 overflow-hidden rounded-xl shadow-xl shadow-black/40">
+                <img
+                  src="/image3.jpeg"
+                  alt="Perito forense"
+                  className="w-full h-full object-cover object-top"
+                />
+              </div>
+              <div className="flex-1 overflow-hidden rounded-xl shadow-xl shadow-black/40">
+                <img
+                  src="/image2.jpeg"
+                  alt="Perito forense"
+                  className="w-full h-full object-cover object-top"
+                />
+              </div>
+            </div>
           </div>
 
           {/* Credentials */}
