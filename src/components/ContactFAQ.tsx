@@ -110,8 +110,8 @@ export default function ContactFAQ() {
             <div className="flex flex-col gap-3">
               {[
                 { icon: Mail, label: "Correo electrónico", value: "consultas@periforense.pe" },
-                { icon: Phone, label: "Teléfono / WhatsApp", value: "+51 900 000 000" },
-                { icon: MapPin, label: "Sede principal", value: "Lima, Perú" },
+                { icon: Phone, label: "WhatsApp / Llamadas", value: "902 371 482 · 951 356 811" },
+                { icon: MapPin, label: "Cobertura", value: "A nivel nacional — Perú" },
               ].map(({ icon: Icon, label, value }) => (
                 <div
                   key={label}

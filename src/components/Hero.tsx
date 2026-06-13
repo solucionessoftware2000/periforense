@@ -3,9 +3,9 @@ import { Button } from "@/components/ui/button"
 import { Badge } from "@/components/ui/badge"
 
 const stats = [
-  { icon: ShieldCheck, label: "Casos Asistidos", value: "+500" },
+  { icon: ShieldCheck, label: "Casos a Nivel Nacional", value: "+1200" },
   { icon: Award, label: "Años de Experiencia", value: "+12" },
-  { icon: Users, label: "Abogados Activos", value: "+200" },
+  { icon: Users, label: "Consultas y Asesorías", value: "Nacional" },
   { icon: Clock, label: "Disponibilidad", value: "24/7" },
 ]
 

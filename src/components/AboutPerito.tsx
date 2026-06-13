@@ -2,12 +2,14 @@ import { Badge } from "@/components/ui/badge"
 import { CheckCircle2 } from "lucide-react"
 
 const credentials = [
-  "Psicólogo Colegiado — CPP",
-  "Perito acreditado ante el Poder Judicial del Perú",
+  "Psicólogo Colegiado — C.PS.P N° 45599",
+  "Perito de Parte acreditado ante el Poder Judicial del Perú",
   "Especialista en Medicina Legal y Ciencias Forenses — IML",
-  "Más de 12 años en psicología forense penal y civil",
-  "Experiencia en juzgados penales, civiles y de familia",
+  "Psicólogo Jurídico Forense con más de 12 años de experiencia",
+  "Experto en elaboración y análisis de dictámenes periciales",
+  "Experiencia en juzgados penales, civiles y de familia a nivel nacional",
   "Formación en Victimología y Evaluación del Daño Psíquico",
+  "Consultas y asesorías en todo el Perú",
 ]
 
 export default function AboutPerito() {
@@ -24,11 +26,10 @@ export default function AboutPerito() {
             El Especialista
           </Badge>
           <h2 className="text-3xl sm:text-4xl font-bold text-foreground tracking-tight mb-4">
-            Sobre el Perito
+            Paulo De La Cruz Valles
           </h2>
-          <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-            Trayectoria profesional respaldada por más de una década de pericias forenses
-            en el sistema judicial peruano.
+          <p className="text-primary font-semibold text-lg">
+            Psicólogo Jurídico Forense · Perito de Parte · C.PS.P N° 45599
           </p>
         </div>
 
@@ -40,7 +41,7 @@ export default function AboutPerito() {
             <div className="flex-[2] overflow-hidden rounded-2xl shadow-2xl shadow-black/50">
               <img
                 src="/image4.jpeg"
-                alt="Perito forense"
+                alt="Paulo De La Cruz Valles - Perito Forense"
                 className="w-full h-full object-cover object-top"
               />
             </div>
@@ -49,14 +50,14 @@ export default function AboutPerito() {
               <div className="flex-1 overflow-hidden rounded-xl shadow-xl shadow-black/40">
                 <img
                   src="/image3.jpeg"
-                  alt="Perito forense"
+                  alt="Paulo De La Cruz Valles"
                   className="w-full h-full object-cover object-top"
                 />
               </div>
               <div className="flex-1 overflow-hidden rounded-xl shadow-xl shadow-black/40">
                 <img
                   src="/image2.jpeg"
-                  alt="Perito forense"
+                  alt="Paulo De La Cruz Valles"
                   className="w-full h-full object-cover object-top"
                 />
               </div>
@@ -67,14 +68,20 @@ export default function AboutPerito() {
           <div className="flex flex-col gap-8">
             <div>
               <h3 className="text-2xl sm:text-3xl font-bold text-foreground mb-4 leading-snug">
-                Pericias con respaldo científico y{" "}
-                <span className="text-primary">validez procesal</span>
+                Soporte técnico-científico para{" "}
+                <span className="text-primary">su estrategia legal</span>
               </h3>
+              <p className="text-muted-foreground leading-relaxed mb-4">
+                En ICP (<strong className="text-foreground">Pericias Psicológicas Penales y Civiles</strong>) somos especialistas
+                en la intersección exacta entre la psicología y el derecho. Proveemos a estudios de abogados,
+                defensores y litigantes de todo el Perú el respaldo técnico-científico necesario para sustentar,
+                defender o refutar elementos de convicción en procesos judiciales complejos.
+              </p>
               <p className="text-muted-foreground leading-relaxed">
-                Especialista en psicología forense con amplia trayectoria en la elaboración
-                de informes periciales para procesos penales y civiles, sustentación oral
-                ante jueces y peritos de parte, y asesoría técnica a equipos legales en
-                todo el Perú.
+                Sabemos que en un tribunal, un caso no se gana solo con argumentos legales, sino con
+                <strong className="text-foreground"> evidencia irrefutable</strong>. Una pericia bien estructurada
+                o la detección oportuna de sesgos y errores metodológicos en un dictamen oficial suele ser el
+                factor determinante en la resolución de un juicio.
               </p>
             </div>
 
@@ -89,7 +96,7 @@ export default function AboutPerito() {
 
             <div className="grid grid-cols-3 gap-4 pt-4 border-t border-border">
               {[
-                { value: "+500", label: "Pericias realizadas" },
+                { value: "+1200", label: "Casos a nivel nacional" },
                 { value: "+12", label: "Años de experiencia" },
                 { value: "100%", label: "Validez judicial" },
               ].map(({ value, label }) => (

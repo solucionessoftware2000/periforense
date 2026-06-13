@@ -1,7 +1,7 @@
 export default function WhatsAppButton() {
   return (
     <a
-      href="https://wa.me/51900000000?text=Hola%2C%20me%20interesa%20solicitar%20una%20consulta%20de%20pericia%20psicol%C3%B3gica%20forense."
+      href="https://wa.me/51902371482?text=Hola%2C%20me%20interesa%20solicitar%20una%20consulta%20de%20pericia%20psicol%C3%B3gica%20forense."
       target="_blank"
       rel="noopener noreferrer"
       aria-label="Contactar por WhatsApp"

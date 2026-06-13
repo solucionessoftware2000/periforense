@@ -161,10 +161,10 @@ export default function Footer() {
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-5">
         <div className="flex flex-col sm:flex-row items-center justify-between gap-3">
           <p className="text-xs text-white/50">
-            © {new Date().getFullYear()} PeriForense Perú. Todos los derechos reservados.
+            © {new Date().getFullYear()} ICP — Pericias Psicológicas Penales y Civiles. Todos los derechos reservados.
           </p>
           <p className="text-xs text-white/40">
-            RUC: 20XXXXXXXXX · Lima, Perú
+            RUC: 20609904209 · Consultas a nivel nacional — Perú
           </p>
         </div>
       </div>
