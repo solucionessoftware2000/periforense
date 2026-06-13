@@ -23,9 +23,9 @@ export default function Hero() {
           className="w-full h-full object-cover object-[70%_center] sm:object-center"
         />
         {/* Gradient overlay: heavy on left for text, lighter on right to show person */}
-        <div className="absolute inset-0 bg-gradient-to-r from-[#070f1e]/95 via-[#070f1e]/70 to-[#070f1e]/20" />
+        <div className="absolute inset-0 bg-gradient-to-r from-[#0a0a0b]/95 via-[#0a0a0b]/70 to-[#0a0a0b]/20" />
         {/* Bottom gradient for stats readability */}
-        <div className="absolute inset-x-0 bottom-0 h-64 bg-gradient-to-t from-[#070f1e] to-transparent" />
+        <div className="absolute inset-x-0 bottom-0 h-64 bg-gradient-to-t from-[#0a0a0b] to-transparent" />
       </div>
 
       {/* Content */}

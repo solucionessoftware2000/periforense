@@ -109,7 +109,7 @@ export default function ContactFAQ() {
             {/* Info cards */}
             <div className="flex flex-col gap-3">
               {[
-                { icon: Mail, label: "Correo electrónico", value: "consultas@periforense.pe" },
+                { icon: Mail, label: "Correo electrónico", value: "psic.forense.paulo@gmail.com" },
                 { icon: Phone, label: "WhatsApp / Llamadas", value: "902 371 482 · 951 356 811" },
                 { icon: MapPin, label: "Cobertura", value: "A nivel nacional — Perú" },
               ].map(({ icon: Icon, label, value }) => (
